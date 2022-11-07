@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"/>
+        <link rel="stylesheet" href="../week-5-solution/style.css"/>
+        <title>Work Day Scheduler</title>
+    </head>
+
+    <body>
+        <header class="jumbotron">
+            <h1 class="display-3">Work Day Scheduler</h1>
+            <p class="lead">A simple calendar app for scheduling your work day</p>
+            <p class="lead" id="currentDay"></p>
+        </header>
+
+        <div class="container">
+            <!-- 9:00AM-->
+            <div class="row border">
+                <div class="col-2 text-right border">9:00 AM</div>
+                <textarea class="col-8 form-control" type="text" id="9AM" data-hour="09"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div>
+            <!-- 10:00AM-->
+            <div class="row border">
+                <div class="col-2 text-right border">10:00 AM</div>
+                <textarea class="col-8 form-control" type="text" id="10AM" data-hour="10"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div>      
+            <!-- 11:00AM-->
+            <div class="row border">
+                <div class="col-2 text-right border">11:00 AM</div>
+                <textarea class="col-8 form-control" type="text" id="11AM" data-hour="11"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div>
+            <!-- 12:00PM-->
+            <div class="row border">
+                <div class="col-2 text-right border">12:00 PM</div>
+                <textarea class="col-8 form-control" type="text" id="12PM" data-hour="12"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div>
+            <!-- 13:00PM-->
+            <div class="row border">
+                <div class="col-2 text-right border">1:00 PM</div>
+                <textarea class="col-8 form-control" type="text" id="1PM" data-hour="13"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div> 
+            <!-- 14:00PM-->
+            <div class="row border">
+                <div class="col-2 text-right border">2:00 PM</div>
+                <textarea class="col-8 form-control" type="text" id="2PM" data-hour="14"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div> 
+            <!-- 15:00PM-->
+            <div class="row border">
+                <div class="col-2 text-right border">3:00 PM</div>
+                <textarea class="col-8 form-control" type="text" id="3PM" data-hour="15"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div> 
+            <!-- 16:00PM-->
+            <div class="row border">
+                <div class="col-2 text-right border">4:00 PM</div>
+                <textarea class="col-8 form-control" type="text" id="4PM" data-hour="16"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div> 
+            <!-- 17:00PM-->
+            <div class="row border">
+                <div class="col-2 text-right border">5:00 PM</div>
+                <textarea class="col-8 form-control" type="text" id="5PM" data-hour="17"></textarea>
+                <div class="col-2 d-flex align-items-center justify-content-center saveBtn save-container"><i class="fas fa-save"></i></div>
+            </div> 
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="../week-5-solution/script.js"></script>
+    </body>
+</html>
