@@ -39,7 +39,7 @@ var updateTime = function() {
 // save in local storage
 var taskRegistration = function() {
     for (var el of scheduleElArray) {
-        el.val(localStorage.getItem("Hour" + el.attr("data-hour")));
+        el.val(localStorage.getItem("Hour " + el.attr("data-hour")));
         }
     }
 
